@@ -15,7 +15,7 @@
         html, body { height: 100%; margin: 0; }
     </style>
 </head>
-<body class="bg-teal-200">
+<body class="bg-teal-200 min-h-screen flex flex-col">
     <div class="min-h-screen flex flex-col pt-4">
             <header class="flex items-center justify-around p-6 ">
             <!-- Logo -->
@@ -222,40 +222,39 @@
     </section>
 
   <footer class="bg-gray-950 text-gray-200">
-    <div class="container px-4 py-12">
+    <div class="container px-4 py-12 flex flex-col md:flex-row justify-center-safe gap-8 space-x- pl-65">
       <!-- ABOUT -->
-      <h2 class="text-center text-xl font-semibold text-white mb-8">About Dogs</h2>
-      <section class="mb-12">
+      <div class="mb-12 max-w-xs">
+        <h2 class="text-center text-xl font-semibold text-white mb-8">About Dogs</h2>
         <h3 class="text-lg font-semibold mb-3">Dogs are loyal and loving companions that have been part of human life for thousands of years.</h3>
         <ul class="list-disc list-inside space-y-2 text-sm leading-relaxed">
           <li>They come in a wide variety of breeds, each with unique characteristics, temperaments, and care needs.</li>
-          <li>Modern HTML emphasizes <em>semantic</em> tags (e.g., <code class="text-gray-300">&lt;header&gt;</code>, <code class="text-gray-300">&lt;main&gt;</code>, <code class="text-gray-300">&lt;section&gt;</code>, <code class="text-gray-300">&lt;article&gt;</code>, <code class="text-gray-300">&lt;footer&gt;</code>) to improve accessibility, SEO, and maintainability.</li>
-          <li>HTML works hand‑in‑hand with <strong>CSS</strong> for styling and <strong>JavaScript</strong> for interactivity, forming the core of front‑end web development.</li>
+          <li>Dogs form strong bonds with their owners and can provide emotional support, companionship, and even assistance in work or therapy roles.</li>
+          <li>Modern dog care emphasizes proper nutrition, regular exercise, mental stimulation, and routine health checkups to ensure a happy and healthy life.</li>
         </ul>
-      </section>
+      </div>
 
-      <hr class="border-gray-800 mb-10">
 
       <!-- SERVICES -->
-      <h2 class="text-center text-xl font-semibold text-white mb-8">Services</h2>
-      <section class="mb-12">
-        <p class="mb-4 text-sm">
-          We provide resources and help for learning and applying HTML effectively:
+      <div class="mb-12 max-w-xs">
+        <h2 class="text-center text-xl font-semibold text-white mb-8">Services</h2>
+        <p class="mb-4 text-sm font-semibold">
+          We provide resources and guidance for caring for your dog effectively:
         </p>
         <ul class="list-disc list-inside space-y-2 text-sm leading-relaxed">
-          <li>Getting started with document structure, metadata, and semantic layout.</li>
-          <li>Accessible markup: headings, labels, alt text, landmarks, and ARIA basics.</li>
-          <li>Forms: inputs, validation, and building user-friendly patterns.</li>
-          <li>Media: images, video, and responsive techniques.</li>
-          <li>Code reviews and best practices to reduce “div soup” and improve SEO.</li>
+          <li>Understanding breeds, temperaments, and social needs.</li>
+          <li>Training tips: obedience, behavior management, and socialization.</li>
+          <li>Health and wellness: nutrition, vaccinations, grooming, and exercise.</li>
+          <li>Activities and enrichment: games, mental stimulation, and outdoor adventures.</li>
+          <li>Advice and best practices to strengthen the bond between you and your dog.</li>
         </ul>
-      </section>
+      </div>
 
-      <hr class="border-gray-800 mb-10">
+
 
       <!-- CONTACT -->
-      <h2 class="text-center text-xl font-semibold text-white mb-8">Contact</h2>
-      <section class="space-y-2 text-sm leading-relaxed">
+      <div class="space-y-2 text-sm leading-relaxed mb-12 max-w-xs">
+        <h2 class="text-center text-xl font-semibold text-white mb-8">Contact</h2>
         <p>
           If you have any questions, suggestions, or would like to get in touch, reach out through:
         </p>
@@ -277,7 +276,7 @@
             </a>
           </li>
         </ul>
-      </section>
+      </div>
     </div>
   </footer>
 
